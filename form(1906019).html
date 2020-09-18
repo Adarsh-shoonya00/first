@@ -1,0 +1,94 @@
+<html>
+<head><title>Registration</title>
+</head>
+<body>
+<h1 style="font-weight: bolder;"><center>
+WELCOME TO NITP FAMILY</center></h1>
+<form style="background-image: url('nitp.jpg'); background-position: center;background-repeat: no-repeat;background-attachment: fixed;background-size: 1980px,1600px; backface-visibility: hidden; background-blend-mode: luminosity;">
+<fieldset>
+<legend style="color: #f00538; font-size:30px;"> BASIC DETAILS</legend>
+<table style="font-size: 22px; font-style: normal; font-weight: bolder; text-decoration-color: #bacbe8">
+<tr><td><label for "form no." style="color: #bacbe8"> Form Number </label></td>
+<td><input type = "number" id = "formno." name = "formno."></td></tr>
+<tr><td><label for "name" style="color: #bacbe8"> Name </label></td>
+<td><input type = "text" id = "name" name = "name"></td></tr>
+<tr><td><label for "roll" style="color: #bacbe8"> Roll Number </label></td>
+<td><input type = "number" id = "roll" name = "roll"></td></tr>
+<tr><td style="color: #bacbe8">Gender</td>
+<td><label for="male" style="color: #bacbe8">Male</label><input type = "radio" id = "male" name = "gender" value = "male">  <label for="female"  style="color: #bacbe8">Female</label><input type = "radio" id = "female" name = "gender" value = "female"></td></tr>
+<tr><td><label for "dob" style="color: #bacbe8"> DOB </label></td>
+<td><input type = "date" id = "dob" name = "dob"></td></tr>
+<tr><td style="color: #bacbe8">PWD</td>
+<td><label for="yes"style="color: #bacbe8">YES</label><input type = "radio" id = "yes" name = "pwd" value = "yes">  <label for="no" style="color: #bacbe8">NO</label><input type = "radio" id = "no" name = "pwd" value = "no"></td></tr>
+<tr><td><label for "category" style="color: #bacbe8"> Category </label></td>
+<td><select id = "category" name = "category">
+     <option value = "general">Gen </otion>
+	 <option value = "OBC"> OBC </option>
+	 <option value = "SC"> SC </option>
+	 <option value = "ST"> ST </option>
+	 </td></tr>
+<tr><td style="color: #bacbe8" colspan = "2">Address</td></tr>
+<tr><td colspan = "2"><textarea name="address" rows="5" cols="50"></textarea></td></tr>
+<tr><td  style="color: #bacbe8" colspan = "2">PLEASE INPUT THE CORRECT PINCODE</td></tr>
+<tr><td><label for "pincode" style="color: #bacbe8"> PIN CODE </label></td>
+<td><input type = "number" id = "pincode" name = "pincode"></td></tr>
+<tr><td><label for "studentphone" style="color: #bacbe8"> PHONE OF STUDENT </label></td>
+<td><input type = "number" id = "studentphone" name = "studentphone"></td></tr>
+<tr><td><label for "guardianphone" style="color: #bacbe8"> PHONE OF GUARDIAN </label></td>
+<td><input type = "number" id = "guardianphone" name = "guardianphone"></td></tr>
+</table></fieldset>
+
+
+<fieldset><legend style="color: #f00538; font-size:30px">ACADEMIC INFORMATION</legend><table style="font-size: 22px; font-style: normal; font-weight: bolder; text-decoration-color: #bacbe8" >
+<tr><td><label for "course" style="color: #bacbe8"> COURSE </label></td>
+<td><select id = "course" name = "course">
+     <option value = "btech"> B.Tech </otion>
+	 <option value = "barch"> B.Arch </option>
+	 <option value = "mtech"> M.Tech </option>
+	 <option value = "msc"> M.Sc. </option></td></tr>
+<tr><td><label for "branch" style="color: #bacbe8"> Branch </label></td>
+<td><input type = "text" id = "branch" name = "branch"></td></tr>
+<tr><td><label for "semester" style="color: #bacbe8"> Semester </label></td>
+<td style="color: #bacbe8"><select id = "semester" name = "semester">
+     <option value = "1"> 1 </option>
+	 <option value = "2"> 2 </option>
+	 <option value = "3"> 3 </option>
+	 <option value = "4"> 4 </option>
+	 <option value = "5"> 5 </option>
+	 <option value = "6"> 6 </option>
+	 <option value = "7"> 7 </option>
+	 <option value = "8"> 8 </option>
+	 <option value = "9"> 9 </option>
+	 <option value = "10"> 10 </option></select>
+	 (for which allotment will be done)</td></tr>
+<tr><td><label for "air" style="color: #bacbe8"> All India Rank </label></td>
+<td><input type = "number" id = "air" name = "air"></td></tr>
+<tr><td style="color: #bacbe8"><label for "categoryrank" style="color: #bacbe8"> Category Rank </label></td>
+<td style="color: #bacbe8"><input type = "number" id = "categoryrank" name = "categoryrank"> (2018 JEE Main/GATE)</td></tr>
+<tr><td><label for "cgpa" style="color: #bacbe8"> CGPA </label></td>
+<td style="color: #bacbe8"><input type = "number" id = "cgpa" name = "cgpa"> (2018 JEE Main/GATE)</td></tr>
+<tr><td style="color: #bacbe8">Backlog</td>
+<td><label for="yes"style="color: #bacbe8">YES</label><input type = "radio" id = "yes" name = "backlog" value = "yes">  <label for="no" style="color: #bacbe8">NO</label><input type = "radio" id = "no" name = "backlog" value = "no"></td></tr>
+<tr><td style="color: #bacbe8">Hostel Accommodation</td>
+<td><label for="yes"style="color: #bacbe8">YES</label><input type = "radio" id = "yes" name = "hostel" value = "yes">  <label for="no" style="color: #bacbe8">NO</label><input type = "radio" id = "no" name = "hostel" value = "no" style="color: #bacbe8"> (If Any) </td></tr>
+<tr><td><label for "hostelname" style="color: #bacbe8"> Name of Hostel </label></td>
+<td><input type = "text" id = "hostelname" name = "hostelname"></td></tr>
+<tr><td><label for "roomnum" style="color: #bacbe8"> Room Number </label></td>
+<td><input type = "number" id = "roomnum" name = "roomnum"></td></tr>
+</table></fieldset>
+
+<fieldset><legend style="color: #f00538; font-size :30px" >ACCOUNT DETAILS FOR REFUNDING PROCESS</legend><table style="font-size: 22px; font-style: normal; font-weight: bolder; text-decoration-color: #bacbe8">
+<tr><td><label for "accname" style="color: #bacbe8"> Account Holder Name </label></td>
+<td style="color: #bacbe8><input type = "text" id = "accname" name = "accname"> As per Bank Passbook </td></tr>
+<tr><td><label for "accnum" style="color: #bacbe8"> Account Number </label></td>
+<td><input type = "text" id = "accnum" name = "accnum"></td></tr>
+<tr><td><label for "ifsc" style="color: #bacbe8"> IFSC CODE </label></td>
+<td><input type = "text" id = "ifsc" name = "ifsc"></td></tr>
+<tr><td><label for "bankname" style="color: #bacbe8"> Bank Name </label></td>
+<td><input type = "text" id = "bankname" name = "bankname"></td></tr>
+<tr><td><label for "bankbranch" style="color: #bacbe8"> Bank Branch </label></td>
+<td><input type = "text" id = "bankbranch" name = "bankbranch"></td></tr>
+</table></fieldset>
+</form>
+</body>
+</html>
